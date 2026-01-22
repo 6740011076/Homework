@@ -1,0 +1,48 @@
+.github-link {
+    text-align: center;
+    margin-top: 8px;
+    width: 100%;  
+}
+
+.github-link a {
+    display: inline-block;
+    background: linear-gradient(135deg, #ea62b1, #ff9acb); /* ไล่สีชมพู */
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;       /* มุมโค้งมน */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(234, 98, 177, 0.4);
+    transition: 0.3s ease;
+}
+
+.github-link a:hover {
+    transform: translateY(-3px); /* ลอยขึ้นนิด ๆ */
+    box-shadow: 0 10px 25px rgba(234, 98, 177, 0.6);
+    background: linear-gradient(135deg, #ff9acb, #ea62b1);
+}
+
+/* ===== Responsive : Tablet ===== */
+@media (max-width: 768px) {
+    .github-link a {
+        font-size: 16px;
+        padding: 10px 24px;
+    }
+}
+
+/* ===== Responsive : Mobile ===== */
+@media (max-width: 480px) {
+    .github-link {
+        margin-top: 16px;
+    }
+
+    .github-link a {
+        width: 100%;
+        max-width: 260px;
+        padding: 14px 0;
+        font-size: 16px;
+    }
+}
+
+

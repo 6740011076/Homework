@@ -50,16 +50,96 @@ body {
 }
 
 .exer {
-    text-align: center;      
+    text-align: center;
+    margin-top: 30px;
 }
 
 .exer a {
-    color: #ea62b1;          
-    font-weight: bold;      
-    font-size: 24px;         
-    text-decoration: none;   
+    display: inline-block;
+    padding: 14px 36px;
+    background: linear-gradient(135deg, #ea62b1, #ff8acb);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(234, 98, 177, 0.35);
+    transition: all 0.3s ease;
 }
 
 .exer a:hover {
-    color: #c94a98;          
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(234, 98, 177, 0.45);
+    background: linear-gradient(135deg, #c94a98, #ea62b1);
 }
+
+.exer a:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 14px rgba(234, 98, 177, 0.3);
+}
+
+/* ================= Tablet ================= */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .exercise-container {
+        padding: 25px;
+    }
+
+    .exercise-title {
+        font-size: 24px;
+    }
+
+    .exercise-box {
+        padding: 20px;
+    }
+
+    .exercise-box p {
+        font-size: 15px;
+    }
+
+    .exer a {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+}
+
+/* ================= Mobile ================= */
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+
+    .exercise-container {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .exercise-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .exercise-box h2 {
+        font-size: 18px;
+    }
+
+    .exercise-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .exercise-image img {
+        border-radius: 10px;
+    }
+
+    .exer a {
+        width: 100%;
+        max-width: 280px;
+        padding: 14px 0;
+        font-size: 16px;
+    }
+}
+
