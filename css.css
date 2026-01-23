@@ -253,7 +253,7 @@ a {
     height: 100%;
     background-color: var(--accent-color);
     border-radius: 6px;
-    width: 0; /* เริ่มต้นที่ 0 */
+    width: 0; 
 }
 
 
@@ -308,7 +308,7 @@ a {
     padding: 10px;
 }
 
-/* กล่องแต่ละ Exercise */
+
 .work-exercise a {
     display: block;
     padding: 22px 10px;
@@ -322,7 +322,6 @@ a {
     transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .work-exercise a:hover {
     transform: translateY(-6px);
     box-shadow: 0 14px 30px rgba(234, 98, 177, 0.25);
