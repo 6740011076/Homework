@@ -1,0 +1,25 @@
+.exercise {
+    width: 100%;
+    display: flex;
+    justify-content: center;   /* กึ่งกลางแนวนอน */
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.home-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #ea62b1, #ff9acb);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(234, 98, 177, 0.4);
+    transition: 0.3s ease;
+}
+
+.home-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(234, 98, 177, 0.6);
+}
